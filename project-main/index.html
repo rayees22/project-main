@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif
+        }
+        .myform{
+            width: 350px;
+            max-width: 90%;
+            height: 500px;
+            margin: 50px auto;
+            padding: 30px 25px;
+            background-color: black;
+            border-radius: 10px;
+           
+            color: #fff;
+        }
+        h2{
+            color: white;
+            margin-bottom: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .input-box {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 8px 4px;
+            border-radius:5px ;
+            background-color: gray;
+            color: #fff;
+            font-size: 14px;
+            outline: none;
+            
+        }
+        .radio {
+            font-size: 14px;
+        }
+        .radio input {
+            width: auto;
+        }
+        .input-box input::placeholder{
+            color: #fff;
+
+        }
+        .myrule{
+            font-size: 12px;
+        }
+        .myrule input{
+            width: auto;
+        }
+        .input-box button{
+            width: 100%;
+            padding: 8px;
+        }
+        
+    </style> -->
+</head>
+<body>
+    <div class="myform">
+        <h2>REGISTERATION FORM</h2>
+        <div class="input-box">
+            <input type="text" id="Name" placeholder="Name">
+            <p id="nameValue"></p>
+         </div>
+         <div class="input-box">
+            <input type="text" id="User_name" placeholder="Username">
+            <p id="userValue"></p>
+        </div>
+        <div class="input-box">
+            <input type="email" name="text" id="email"placeholder="Email">
+            <p id="emailValue"></p>
+        </div>
+        <div class="input-box">
+            <input type="password" id="Password" placeholder="Password">
+            <p id="passValue"></p>
+        </div>
+        <div class="input-box">
+            <input type="password" id="con_password" placeholder="Confirm Password">
+            <p id="conpassValue"></p>
+        </div>
+        <div class="input-box radio">
+            Gender: Male&nbsp;<input type="radio" name="gender" id="">&nbsp;&nbsp;&nbsp; Female &nbsp;<input type="radio" name="gender" id="">
+        </div>
+        <div class="input-box myrule">
+            <input type="checkbox">&nbsp; I accept this terms and condition
+        </div>
+        <div class="input-box">
+            <button onclick="formValue()">Submit</button>
+        </div>
+
+
+
+
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif
+        }
+        .myform{
+            width: 350px;
+            max-width: 90%;
+            height: auto;
+            margin: 50px auto;
+            padding: 30px 25px;
+            background-color: black;
+            border-radius: 10px;
+           
+            color: #fff;
+        }
+        h2{
+            color: white;
+            margin-bottom: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .input-box {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 8px 4px;
+            border-radius:5px ;
+            background-color: gray;
+            color: #fff;
+            font-size: 14px;
+            outline: none;
+            
+        }
+        .radio {
+            font-size: 14px;
+        }
+        .radio input {
+            width: auto;
+        }
+        .input-box input::placeholder{
+            color: #fff;
+
+        }
+        .myrule{
+            font-size: 12px;
+        }
+        .myrule input{
+            width: auto;
+        }
+        .input-box button{
+            width: 100%;
+            padding: 8px;
+        }
+        
