@@ -48,6 +48,11 @@
             color: #fff;
 
         }
+        .input-box p{
+            color: rgb(231, 55, 55);
+            font-size: 14px;
+        }
+
         .myrule{
             font-size: 12px;
         }
